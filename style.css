@@ -12,8 +12,9 @@ nav{
 nav ul{
   list-style-type: none;
 }
-
-/* Style the side navigation */
+ul{
+  list-style-type: none;
+}
 .sidenav {
     height: 100%;
     width: 100px;
@@ -26,7 +27,6 @@ nav ul{
 }
 
 
-/* Side navigation links */
 .sidenav a {
     color: white;
     padding: 16px;
@@ -34,14 +34,35 @@ nav ul{
     display: block;
 }
 
-/* Change color on hover */
 .sidenav a:hover {
     background-color: #ddd;
     color: black;
 }
 article{
+  margin-right: 100px;
   margin-left: 100px;
   border-left: 1px;
   padding: 1em;
   overflow: hidden;
+}
+p{
+  border: 2px solid red;
+  border-radius: 12px;
+}
+h2{
+  border: 2px solid;
+  background-color: grey;
+}
+.top li{
+  width:2.8em;
+  padding: 0.4em 0.8em;
+  margin: 0.8em;
+  border-radius: 12px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top a{
+  color: black;
+  text-decoration: none;
 }
