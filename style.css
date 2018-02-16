@@ -49,9 +49,17 @@ p{
   border: 2px solid red;
   border-radius: 12px;
 }
-
+p2{
+  border: 2px solid red;
+  border-radius: 12px;
+}
 h2{
   border: 2px solid;
+  background-color: grey;
+}
+h4{
+  border: 2px solid black;
+  border-radius: 12px;
   background-color: grey;
 }
 .top li{
@@ -77,4 +85,8 @@ footer li{
   margin-left: auto;
   margin-right: auto;
   text-align:center;
+}
+header{
+  margin-left: 100px;
+  margin-right: 100px;
 }
