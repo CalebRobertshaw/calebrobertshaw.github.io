@@ -1,6 +1,6 @@
 html{
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abel";
   font-size: 0.9rem;
   background-color: black;
 }
@@ -57,18 +57,22 @@ p{
 h1{
   color: white;
 }
+
 h2{
-  border: 2px solid;
-  border-radius: 12px;
-  background-color: grey;
+  margin:0 0 8px 0;
+  padding:0;
+  font-size:1.6em;
+  font-weight:normal;
+  line-height:normal;
+  color: grey;
+  text-align: left;
 }
 h3{
-  color: white;
+  border: 2px solid black;
+  background-color: grey;
 }
 h4{
-  border: 2px solid black;
-  border-radius: 12px;
-  background-color: grey;
+  color: grey;
 }
 .top li{
   width:2.8em;
